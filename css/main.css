@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'lobster';
-	src: url('font/lobster/lobster.eot');
-	src: url('font/lobster/lobster.eot?#iefix') format('embedded-opentype'),
-		 url('font/lobster/lobster.woff') format('woff'),
-		 url('font/lobster/lobster.ttf') format('truetype');
+	src: url('../font/lobster/lobster.eot');
+	src: url('../font/lobster/lobster.eot?#iefix') format('embedded-opentype'),
+		 url('../font/lobster/lobster.woff') format('woff'),
+		 url('../font/lobster/lobster.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
 }
