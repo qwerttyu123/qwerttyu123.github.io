@@ -1,0 +1,184 @@
+
+@media only screen and (min-width : 1280px) {
+
+	.info>.container p {
+		font-size: 30px;
+	}
+}
+
+
+@media only screen and (min-width : 1600px) {
+	.info>.container p {
+		font-size: 35px;
+	}
+	.title {
+		font-size: 80px;
+	}
+	.header_name {
+		font-size: 100px;
+	}
+	.header_slogan {
+		font-size: 40px;
+	}
+	.header_icon {
+		font-size: 30px;
+	}
+	footer{
+		font-size: 30px;
+	}
+	.portfolio_title {
+		font-size: 35px;
+	}
+	.portfolio_text{
+		font-size: 20px;
+	}
+}
+@media only screen and (min-width: 2500px) {
+	.info>.container p {
+		font-size: 55px;
+	}
+	.title {
+		font-size: 100px;
+	}
+	footer{
+		font-size: 35px;
+	}
+	.portfolio_title {
+		font-size: 50px;
+	}
+	.portfolio_text{
+		font-size: 35px;
+	}
+
+}
+@media only screen and (min-width : 3000px) {
+	.info>.container p {
+		font-size: 85px;
+	}
+	.title {
+		font-size: 120px;
+	}
+	.header_name {
+		font-size: 200px;
+		line-height: 1.5;
+	}
+	.header_slogan {
+		font-size: 100px;
+	}
+	.header_icon {
+		font-size: 50px;
+	}
+	footer{
+		font-size: 40px;
+	}
+	.portfolio_title {
+		font-size: 50px;
+	}
+	.portfolio_text{
+		font-size:40px;
+	}
+	.row {
+		margin-top: 200px;
+	}
+}
+
+
+
+@media screen and (orientation:portrait) {
+    .row{
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .inform {
+    	flex-direction: column;
+    }
+    .image img {
+    	width: 50vw;
+    }
+    .title {
+    	font-size: 10wh;
+    }
+}
+
+@media (orientation:portrait) and (max-width: 1024px) {
+  .col {
+  	width: 100%
+  }
+  .col img {
+  	width: 40%;
+  }
+}
+
+@media (orientation:portrait) and (max-width: 800px) {
+  .col {
+  	width: 100%
+  }
+  .col img {
+  	width: 45%;
+  }
+  .portfolio_title {
+  	margin: 0;
+  	padding: 0;
+  
+  }
+
+  .portfolio_text {
+  	display: none;
+  }
+}
+
+@media (orientation:portrait) and (max-width: 450px) {
+	.title{
+		font-size: 30px;
+		padding: 0;
+	
+	}
+	.info>.container p {
+		font-size: 16px;
+	}
+	footer {
+		font-size: 10px;
+	}
+	  .col img {
+  	width: 55%;
+  }
+}
+
+
+
+@media (orientation:landscape) and (max-width: 740px) {
+	.title{
+		font-size: 30px;
+		padding: 0;	
+	}
+	.info>.container p {
+		font-size: 16px;
+	}
+	  .portfolio_title {
+  	font-size: 20px;
+  
+  }
+
+  .portfolio_text {
+  	font-size: 10px;
+  }
+}
+
+@media (orientation:portrait) and (max-width: 420px) {
+	.title{
+		font-size: 30px;
+		padding: 0;
+	
+	}
+	.info>.container p {
+		font-size: 16px;
+	}
+	footer {
+		font-size: 10px;
+	}
+	  .col img {
+  	width: 50%;
+  }
+}
+
+
