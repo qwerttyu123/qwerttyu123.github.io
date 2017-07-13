@@ -1,13 +1,12 @@
-
-/*font-family: 'Lobster', cursive;
-font-family: 'Comfortaa', cursive;
-font-family: 'Russo One', sans-serif;
-font-family: 'Bad Script', cursive;
-font-family: 'Neucha', cursive;
-font-family: 'Press Start 2P', cursive;*/
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-
-
+@font-face {
+	font-family: 'lobster';
+	src: url('font/lobster/lobster.eot');
+	src: url('font/lobster/lobster.eot?#iefix') format('embedded-opentype'),
+		 url('font/lobster/lobster.woff') format('woff'),
+		 url('font/lobster/lobster.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
 html, body {
 	font-size: 16px;
 	line-height: 1.5;
