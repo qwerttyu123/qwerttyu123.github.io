@@ -1,12 +1,11 @@
-@font-face {
-	font-family: 'lobster';
-	src: url('../lobster/lobster.eot');
-	src: url('../lobster/lobster.eot?#iefix') format('embedded-opentype'),
-		 url('../lobster/lobster.woff') format('woff'),
-		 url('../lobster/lobster.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
-}
+
+/*font-family: 'Lobster', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Bad Script', cursive;
+font-family: 'Neucha', cursive;
+font-family: 'Press Start 2P', cursive;*/
+
 html, body {
 	font-size: 16px;
 	line-height: 1.5;
@@ -57,7 +56,7 @@ html, body {
 	font-size: 60px;
 	line-height: 62px;
 	margin-bottom: 30px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Neucha', cursive;
 	margin-top: -100px;
 
 }
