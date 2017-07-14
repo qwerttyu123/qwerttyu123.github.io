@@ -165,7 +165,6 @@
 	}
 	  .portfolio_title {
   	font-size: 20px;
-  
   }
 
   .portfolio_text {
@@ -191,3 +190,15 @@
 }
 
 
+@media (orientation:portrait) and (max-width: 720px) {
+	.info>.container p {
+	font-size: 16px;
+	}
+	.portfolio_title {
+  	font-size: 20px;
+	}
+		.title{
+		font-size: 25px;
+		padding: 0;	
+	}
+  }
