@@ -192,7 +192,7 @@
 
 @media (orientation:portrait) and (max-width: 720px) {
 	.info>.container p {
-	font-size: 16px;
+	font-size: 12px;
 	}
 	.portfolio_title {
   	font-size: 20px;
@@ -201,4 +201,24 @@
 		font-size: 25px;
 		padding: 0;	
 	}
+	footer {
+	font-size: 10px;
+	}
   }
+
+@media (orientation:landscape) and (max-width: 720px) {
+	.title{
+		font-size: 18px;
+		padding: 0;	
+	}
+	.info>.container p {
+		font-size: 10px;
+	}
+	  .portfolio_title {
+  	font-size: 12px;
+  }
+
+  .portfolio_text {
+  	font-size: 10px;
+  }
+}
