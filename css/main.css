@@ -43,6 +43,10 @@ html, body {
 	line-height: 1.5;
 	font-family: 'Neucha', cursive;
 }
+
+a {
+	z-index: 100
+}
 /******************************************
 					PRELOADER	
 ******************************************/
@@ -169,10 +173,8 @@ text-align: center;
  
 .image img{
 	width: 25vw;
-	float: left;
 	border-radius: 50%;
 	margin: 1vw;
-	z-index: 2;
 }
 
 .info>.container {
