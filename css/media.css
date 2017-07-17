@@ -223,14 +223,3 @@
   	font-size: 10px;
   }
 }
-
-@media (orientation:portrait) and (max-width: 650px) {
- 	.footer_social,.image,.portfolio_title {
- 		display: none;
- 	}
- 	.footer_name {
- 		font-size:7px;
- 	}
-
-
-  }
