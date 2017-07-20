@@ -1,50 +1,16 @@
-@font-face {
-	font-family: 'lobster';
-	src: url('../fonts/lobster/lobster.eot');
-	src: url('../fonts/lobster/lobster.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/lobster/lobster.woff') format('woff'),
-		 url('../fonts/lobster/lobster.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
-}
 
-@font-face {
-	font-family: 'Neucha';
-	src: url('../fonts/NeuchaRegular/NeuchaRegular.eot');
-	src: url('../fonts/NeuchaRegular/NeuchaRegular.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/NeuchaRegular/NeuchaRegular.woff') format('woff'),
-		 url('../fonts/NeuchaRegular/NeuchaRegular.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'Bad Script';
-	src: url('../fonts/BadScriptRegular/BadScriptRegular.eot');
-	src: url('../fonts/BadScriptRegular/BadScriptRegular.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/BadScriptRegular/BadScriptRegular.woff') format('woff'),
-		 url('../fonts/BadScriptRegular/BadScriptRegular.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: "Comfortaa";
-	src: url("../fonts/ComfortaaRegular/ComfortaaRegular.eot");
-	src: url("../fonts/ComfortaaRegular/ComfortaaRegular.eot?#iefix")format("embedded-opentype"),
-		 url("../fonts/ComfortaaRegular/ComfortaaRegular.woff") format("woff"),
-		 url("../fonts/ComfortaaRegular/ComfortaaRegular.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-	}
+/*font-family: 'Lobster', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Bad Script', cursive;
+font-family: 'Neucha', cursive;
+font-family: 'Press Start 2P', cursive;*/
 
 html, body {
 	font-size: 16px;
 	line-height: 1.5;
 	font-family: 'Neucha', cursive;
 }
-
-
 /******************************************
 					PRELOADER	
 ******************************************/
@@ -54,16 +20,53 @@ html, body {
   top: 0;
   right: 0; 
   bottom: 0; 
+  text-align: center;
+  margin: 0 auto;
   background: #BAFF94;
   z-index: 1000;
 }
-#before-load i {
-  font-size: 100px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin: -50px 0 0 -50px;
-  color: #FFF10A;
+
+@keyframes spinner {
+	100% {
+		transform: rotate(1800deg);
+	}
+}
+
+.container-spinner {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 50vh;
+	transform: translateY(-50%);
+}
+
+.spinner {
+	display: inline-block;
+	width: 50vh;
+	height: 50vh;
+	background: url(../img/spinner.png) center center;
+	-webkit-background-size: contain;
+	background-size: contain;
+	transform-origin: 50% 50%;
+	animation: spinner 5s infinite alternate ease-in-out;
+
+
+}
+
+.center-spinner {
+    display: inline-block;
+    position: absolute;
+    margin-left: -50vh;
+	width: 50vh;
+	height: 50vh;
+    background: url(../img/spinner1.png) center center;
+    background-size: contain;
+}
+.text {
+	position: relative;
+	z-index: 2;
+	font-size: 10vh;
+	font-family: 'Neucha', cursive;
 }
 /******************************************
 					HEADER	
@@ -171,8 +174,10 @@ text-align: center;
  
 .image img{
 	width: 25vw;
+	float: left;
 	border-radius: 50%;
 	margin: 1vw;
+	z-index: 2;
 }
 
 .info>.container {
@@ -226,6 +231,7 @@ color:#000;
 }
 
 .col {
+
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -238,6 +244,57 @@ background:#B4C1C3;
 
 }
 
+/*****************************************
+					PORTFOLIO SINGLE
+******************************************/
+
+.portfolio-page {
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+	background-image: url(../img/bg/mochaGrunge.png);
+}
+.portfolio-page img {
+	margin-bottom: 50px;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.portfolio_title-sigl{
+	color: #061634;
+	font-size: 40px;
+	font-family: 'Bad Script', cursive;
+}
+.button-back{
+	text-decoration: none;
+	font-weight: 700;
+	color: #061634;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	display: inline-block;
+	border: 2px solid #061634;
+	border-radius: 50px;
+	padding: 20px;
+	margin-bottom: 13px;
+	transition: 0.5s ease-out;
+	margin-top: 30px;
+}
+.button-back:hover{
+	color: #FFF;
+	background-color: #061634;
+}
+
+.zag {
+	color: #061634;
+	font-size: 20px;
+	text-align: left;
+}
+
+.opis {
+	color: white;
+	font-size: 20px;
+	text-align: left;
+}
 
 /*****************************************
 					FOOTER
@@ -247,12 +304,10 @@ footer{
  	background-color: #061634;
 	color:#6479a2;
 	font-family: 'Comfortaa', cursive;
-	letter-spacing: 2px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
-
 }
 
 

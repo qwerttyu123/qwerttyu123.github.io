@@ -11,15 +11,10 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" type="image/x-icon"  href="img/favicon/favicon1.ico">
-	<!-- 	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa|Lobster|Neucha|Press+Start+2P|Russo+One" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa|Lobster|Neucha|Press+Start+2P|Russo+One" rel="stylesheet">
  		<link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
  		<link rel="stylesheet" href="css/animate.css" />
  		<link rel="stylesheet" href="css/media.css">
- 		<!-- Скрипты -->
- 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
-		<script src="js/jquery.particleground.min.js"></script>
-		<script src="js/script.js"></script>
 	</head>
 
 <body>
@@ -27,7 +22,11 @@
 					Preloader
 *****************************************-->
 <div id="before-load">
-  <i class="fa fa-spinner fa-pulse "></i>
+	<div class="container-spinner">
+		<div class="spinner"></div>
+		<div class="center-spinner"></div>
+		<div class="text"> Loading...</div>
+	</div>
 </div>
 <div class="main">
 <!--****************************************
@@ -95,7 +94,7 @@
 			<div class="col2">
 				<p class= "footer_social">Профили в социальных сетях</p>
 				<p class= "footer_social_icon">
-					<a href="https://vk.com/kchipson"><i class="fa fa-vk" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
 					<a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
 					<a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				</p>
@@ -108,12 +107,16 @@
 
 </div>
 </section>
+		<!-- СКРИПТЫ -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
 $(window).load(function() {
   $('#before-load').find('i').fadeOut().end().delay(400).fadeOut('slow');
 });
 </script>
-
+<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+<script src="js/jquery.particleground.min.js"></script>
+<script src="js/script.js"></script>
 
 		
 
