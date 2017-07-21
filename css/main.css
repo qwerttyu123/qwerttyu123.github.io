@@ -5,6 +5,46 @@ font-family: 'Russo One', sans-serif;
 font-family: 'Bad Script', cursive;
 font-family: 'Neucha', cursive;
 font-family: 'Press Start 2P', cursive;*/
+@font-face {
+	font-family: 'lobster';
+	src: url('../fonts/lobster/lobster.eot');
+	src: url('../fonts/lobster/lobster.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lobster/lobster.woff') format('woff'),
+		 url('../fonts/lobster/lobster.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Neucha';
+	src: url('../fonts/NeuchaRegular/NeuchaRegular.eot');
+	src: url('../fonts/NeuchaRegular/NeuchaRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/NeuchaRegular/NeuchaRegular.woff') format('woff'),
+		 url('../fonts/NeuchaRegular/NeuchaRegular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Bad Script';
+	src: url('../fonts/BadScriptRegular/BadScriptRegular.eot');
+	src: url('../fonts/BadScriptRegular/BadScriptRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/BadScriptRegular/BadScriptRegular.woff') format('woff'),
+		 url('../fonts/BadScriptRegular/BadScriptRegular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/ComfortaaRegular/ComfortaaRegular.eot");
+	src: url("../fonts/ComfortaaRegular/ComfortaaRegular.eot?#iefix")format("embedded-opentype"),
+		 url("../fonts/ComfortaaRegular/ComfortaaRegular.woff") format("woff"),
+		 url("../fonts/ComfortaaRegular/ComfortaaRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
 
 html, body {
 	font-size: 16px;
